@@ -1,0 +1,55 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+canvas {
+  display: block;
+  position: absolute;
+
+  -webkit-filter: drop-shadow( 5x 5px 2px rgba(0, 0, 0, .5));
+  filter: drop-shadow( 5px 5px 2px rgba(0, 0, 0, .5));
+}
+
+#poti-top,
+#poti-bottom {
+  position: absolute;
+  width: 500px;
+  pointer-events: auto;
+}
+
+#poti-bottom {
+  -webkit-filter: drop-shadow( 2x 2px 2px rgba(0, 0, 0, .5));
+  filter: drop-shadow( 2px 2px 2px rgba(0, 0, 0, .5));
+}
+
+.label {
+  position: absolute;
+  font-family: sans-serif;
+  overflow: hidden;
+  text-align: center;
+  /* background-color: red; */
+  width:60px;
+}
+
+#gnd {
+  top: 430px;
+  left: 125px;
+  top: 500px;
+}
+#vcc {
+  top: 450px;
+  left: 315px;
+  top: 500px;
+}
+#vout {
+  top: 450px;
+  left: 220px;
+  top: 500px;
+}
+
+.centertext{
+  margin-left: -100%;
+  margin-right: -100%;
+  text-align: center;
+}

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 1129 1129" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;">
+    <g id="ArtBoard1" transform="matrix(1,0,0,1,-453.257,-702.028)">
+        <rect x="453.257" y="702.028" width="1128.13" height="1128.13" style="fill:none;"/>
+        <g>
+            <g id="ring" transform="matrix(1.15374,1.41292e-16,1.41292e-16,-1.15374,-420.285,2596.44)">
+                <path d="M1064.51,936.441C1000.49,990.166 963.508,1069.47 963.508,1153.05C963.508,1309.11 1090.21,1435.81 1246.27,1435.81C1402.33,1435.81 1529.03,1309.11 1529.03,1153.05C1529.03,1069.47 1492.05,990.166 1428.02,936.441L1366.42,1009.85C1408.75,1045.37 1433.2,1097.79 1433.2,1153.05C1433.2,1256.22 1349.44,1339.98 1246.27,1339.98C1143.1,1339.98 1059.34,1256.22 1059.34,1153.05C1059.34,1097.79 1083.79,1045.37 1126.11,1009.85L1064.51,936.441Z" style="fill:rgb(108,108,108);"/>
+            </g>
+            <g id="kontakt" transform="matrix(-0.829241,-1.01553e-16,2.22134e-16,-1.81386,1859.4,4306.93)">
+                <path d="M1043.66,1454.93C1043.66,1447.75 1030.89,1441.91 1015.17,1441.91C999.449,1441.91 986.684,1447.75 986.684,1454.93L986.684,1608.35C986.684,1615.54 999.449,1621.38 1015.17,1621.38C1030.89,1621.38 1043.66,1615.54 1043.66,1608.35L1043.66,1454.93Z" style="fill:rgb(180,158,76);"/>
+            </g>
+            <g id="kontakte" transform="matrix(1.56956,1.11022e-16,-1.11022e-16,1.56956,-566.563,-713.087)">
+                <g transform="matrix(-0.637741,4.11757,4.11757,0.637741,1089.91,1402.57)">
+                    <path d="M-4.481,7.684C-0.679,4.581 4.783,4.581 8.586,7.684" style="fill:none;fill-rule:nonzero;stroke:rgb(180,158,76);stroke-width:7.22px;"/>
+                </g>
+                <g transform="matrix(2.11005,3.59288,3.59288,-2.11005,1117.36,1558.65)">
+                    <path d="M-24.128,13.811L-13.249,13.811" style="fill:none;fill-rule:nonzero;stroke:rgb(180,158,76);stroke-width:7.22px;"/>
+                </g>
+                <g transform="matrix(-0.637741,-4.11757,-4.11757,0.637741,876.78,1419.03)">
+                    <path d="M-6.586,-5.228C-2.784,-8.333 2.678,-8.332 6.481,-5.228" style="fill:none;fill-rule:nonzero;stroke:rgb(180,158,76);stroke-width:7.22px;"/>
+                </g>
+                <g transform="matrix(-2.11014,3.59283,3.59283,2.11014,836.206,1442.08)">
+                    <path d="M-7.905,13.811L2.973,13.811" style="fill:none;fill-rule:nonzero;stroke:rgb(180,158,76);stroke-width:7.22px;"/>
+                </g>
+            </g>
+        </g>
+        <g transform="matrix(1,0,0,1,453.257,702.028)">
+            <path d="M346.234,1090.33C346.234,995.076 343.351,947.506 362.065,911.298" style="fill:none;stroke:black;stroke-width:25px;stroke-miterlimit:1.5;"/>
+            <path d="M346.234,1090.33C346.234,995.076 343.351,947.506 362.065,911.298" style="fill:none;stroke:rgb(63,63,63);stroke-width:14.58px;stroke-miterlimit:2;"/>
+        </g>
+        <g transform="matrix(-1,0,0,1,1583.51,702.028)">
+            <path d="M346.234,1090.33C346.234,995.076 343.351,947.506 362.065,911.298" style="fill:none;stroke:rgb(189,0,0);stroke-width:25px;stroke-miterlimit:1.5;"/>
+            <path d="M346.234,1090.33C346.234,995.076 343.351,947.506 362.065,911.298" style="fill:none;stroke:rgb(253,0,0);stroke-width:14.58px;stroke-miterlimit:2;"/>
+        </g>
+        <g transform="matrix(1,0,0,1,453.257,702.028)">
+            <path d="M564.325,969.223L564.325,1090.33" style="fill:none;stroke:rgb(0,170,0);stroke-width:25px;stroke-miterlimit:1.5;"/>
+            <path d="M564.325,969.223L564.325,1090.33" style="fill:none;stroke:rgb(0,229,0);stroke-width:14.58px;stroke-miterlimit:2;"/>
+        </g>
+    </g>
+    <g id="Standard">
+    </g>
+</svg>
