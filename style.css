@@ -7,8 +7,8 @@ canvas {
   display: block;
   position: absolute;
 
-  -webkit-filter: drop-shadow( 5x 5px 2px rgba(0, 0, 0, .5));
-  filter: drop-shadow( 5px 5px 2px rgba(0, 0, 0, .5));
+  /* -webkit-filter: drop-shadow(5x 5px 2px rgba(0, 0, 0, 0.5));
+  filter: drop-shadow(5px 5px 2px rgba(0, 0, 0, 0.5)); */
 }
 
 #poti-top,
@@ -19,8 +19,8 @@ canvas {
 }
 
 #poti-bottom {
-  -webkit-filter: drop-shadow( 2x 2px 2px rgba(0, 0, 0, .5));
-  filter: drop-shadow( 2px 2px 2px rgba(0, 0, 0, .5));
+  -webkit-filter: drop-shadow(2x 2px 2px rgba(0, 0, 0, 0.5));
+  filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.5));
 }
 
 .label {
@@ -29,26 +29,40 @@ canvas {
   overflow: hidden;
   text-align: center;
   /* background-color: red; */
-  width:60px;
+  width: 60px;
+}
+
+#r1 {
+  background-color: rgba(255, 50, 200,0.5);
+}
+
+#r2 {
+  background-color: rgba(255, 200, 0, 0.5);
 }
 
 #gnd {
   top: 430px;
   left: 125px;
   top: 500px;
+  background-color: rgba(0, 0, 0, 0.2);
+  /* font-weight: bold; */
 }
 #vcc {
-  top: 450px;
+  top: 430px;
   left: 315px;
   top: 500px;
+  background-color: rgba(255, 0, 0,0.2);
+  /* font-weight: bold; */
 }
 #vout {
-  top: 450px;
+  top: 460px;
   left: 220px;
   top: 500px;
+  background-color: rgba(0, 255, 0,0.2);
+  /* font-weight: bold; */
 }
 
-.centertext{
+.centertext {
   margin-left: -100%;
   margin-right: -100%;
   text-align: center;

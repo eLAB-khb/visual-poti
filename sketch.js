@@ -19,6 +19,7 @@ function draw() {
   stroke(75);
   let deg, p, cy;
   
+  /*
   deg = map(x, 0, 100, 0, 125) + 55 + 90;
   p = cartesian(deg - 10, 150);
   line(50, 250 + p.y, 250 + p.x, 250 + p.y);
@@ -38,6 +39,35 @@ function draw() {
   line(450, cy + 11, 450, 380);
   select("#r2").position(420, cy - 8);
   select("#r2").html("<span class='centertext'>" + (100*(100-x)).toK()+"&#8486;</span>");
+*/
+  noFill();
+  stroke(255, 200, 0,127);
+  strokeWeight(5);
+//  strokeCap(SQUARE);
+
+  if (x < 99)
+    arc(250, 250, 320, 320, radians(145 + a + 2), radians(35), OPEN);
+    line();
+    stroke(255, 50, 200, 100);
+  if (x > 1)
+    arc(250, 250, 320, 320, radians(145), radians(145 + a - 2), OPEN);
+
+  //deg = map(x, 0, 100, 0, 125) + 55 + 90;
+  //p = cartesian(deg - 10, 150);
+  p = cartesian(min(max(10,a-60),240)+55+90, 220);
+  select("#r1").position(p.x+225, p.y+260);
+
+  //cy = min((415 - (250 + p.y)) / 2 + (p.y + 250), 368);
+  //select("#r1").position(40, map(x,0,100,260,150));
+  select("#r1").html("<span class='centertext'>" + (100*(x)).toK()+"&#8486;</span>");
+
+  p = cartesian(min(max(0,a+60),240)+55+90, 220);
+
+console.log(deg);
+  //select("#r2").position(400, 230);
+  select("#r2").position(p.x+215, p.y+260);
+  select("#r2").html("<span class='centertext'>" + (100*(100-x)).toK()+"&#8486;</span>");
+
 }
 
 function divideVoltage(rH, rL, vIn) {
