@@ -1,10 +1,12 @@
+let x =0 ;
+
 function setup() {
   createCanvas(500, 500);
 }
 
 function draw() {
   clear();
-  let x = constrain(map(mouseX, 20, width, 0, 100), 0, 100);
+  //let x = constrain(map(mouseX, 20, width, 0, 100), 0, 100);
   let a = map(x, 0, 100, 0, 250);
 
   select("#poti-top").style("transform", "rotate(" + a + "deg");
@@ -85,3 +87,10 @@ Number.prototype.toK = function () {
   if (this > 1000) return (this / 1000).toPrecision(2) + " K";
   else return round(this)+" ";
 };
+
+function mouseWheel(event) {
+  print(event.delta);
+  //move the square according to the vertical scroll amount
+  x += event.delta;
+  x = constrain(x, 0, 100);
+}
