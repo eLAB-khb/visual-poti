@@ -6,13 +6,26 @@
     <link rel="stylesheet" type="text/css" href="style.css" />
   </head>
   <body>
-    <script src="sketch.js"></script>
-    <object id="poti-bottom" type="image/svg+xml" data="poti-bottom.xml"></object>
-    <object id="poti-top" type="image/svg+xml" data="poti-top.xml"></object>
-    <div class="label" id="gnd">GND</div>
-    <div class="label" id="vcc">5V</div>
-    <div class="label" id="vout">OUT</div>
-    <div class="label" id="r1">R1</div>
-    <div class="label" id="r2">R2</div>
+
+    <!-- <div id="maincontainer" style="background-color: aqua; width: 500px; margin: auto;">
+      <div id="square" style="background-color: aqua; width: 500px;height: 500px;">square</div>
+      <div id="label1" style="background-color: red; width: 33.3%;height: 20px; float: left;">l1</div>
+      <div id="label2" style="background-color: green; width: 33.4%;height: 20px; float: left;">l2</div>
+      <div id="label2" style="background-color: orange; width: 33.3%;height: 20px; float: left;">l2</div>
+    </div> -->
+    <div id="maincontainer">
+      <div id="canvascontainer">
+        <script src="sketch.js"></script>
+        <object id="poti-bottom" type="image/svg+xml" data="poti-bottom.xml"></object>
+        <object id="poti-top" type="image/svg+xml" data="poti-top.xml"></object>
+        <div class="label" id="r1">R1</div>
+        <div class="label" id="r2">R2</div>
+      </div>
+      <div id="bottomlabels">
+        <div class="label" id="gnd">GND</div>
+        <div class="label" id="vcc">5V</div>
+        <div class="label" id="vout">OUT</div>
+      </div>
+  </div>
   </body>
 </html>
