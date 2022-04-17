@@ -37,11 +37,11 @@ function draw() {
   let margin = (windowWidth-500)/2;
 
   p = cartesian(min(max(10,a-60),240)+55+90, 220);
-  select("#r1").position(margin+p.x+225, p.y+260);
+  select("#r1").position(margin+p.x+200, p.y+260);
   select("#r1").html("<span class='centertext'>" + (100*(x)).toK()+"&#8486;</span>");
 
   p = cartesian(min(max(0,a+60),240)+55+90, 220);
-  select("#r2").position(margin+p.x+215, p.y+260);
+  select("#r2").position(margin+p.x+200, p.y+260);
   select("#r2").html("<span class='centertext'>" + (100*(100-x)).toK()+"&#8486;</span>");
 }
 
